@@ -1,6 +1,6 @@
-# WP-Capify
+# wp-capify
 
-WP-Capify is a [Capistrano][1] setup tailor-made for [WordPress][2]. [Capistrano][1] is a developer tool for deploying web applications. It is typically installed on a workstation, and used to deploy code from your source code management (SCM) to one, or more servers.
+wp-capify is a [Capistrano][1] setup tailor-made for [WordPress][2]. [Capistrano][1] is a developer tool for deploying web applications. It is typically installed on a workstation, and used to deploy code from your source code management (SCM) to one, or more servers.
 
 This setup is inspired by [theme.fm][3] and supports multistage deployment to the environments `staging` and `production` from a development repository.
 
@@ -9,7 +9,7 @@ The modified `wp-config.php` only loads an existing `wp-config-<environment>.php
 
 # Setup
 
-* Development machine, with WP-Capify and your WordPress files in `public/`
+* Development machine, with wp-capify and your WordPress files in `public/`
 * Staging server, e.g. `staging.example.com`
 * Production server, e.g. `example.com`
 
