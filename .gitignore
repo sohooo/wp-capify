@@ -1,0 +1,11 @@
+# config files
+public/wp-config-local.php
+public/wp-config-playground.php
+public/wp-config-production.php
+
+# shared folders
+public/wp-content/uploads/
+
+# other stuff
+*.sw?
+.DS_Store
